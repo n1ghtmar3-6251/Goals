@@ -71,3 +71,20 @@ Accept-Encoding: gzip, deflate, br
 
 
 ```
+
+ 5. 
+
+```
+GET /v3/group_channels/sendbird_group_channel_10090318_a2c0068042a6934a83a2fc8b325c911b32c5dd43/messages?include=false&custom_types=*&next_limit=0&include_poll_details=true&include_reply_type=none&is_sdk=true&reverse=false&message_ts=9223372036854775807&prev_limit=30 HTTP/2
+Host: api-43deb9b1-7e2d-4e7e-8678-27839cdf2791.sendbird.com
+Accept: application/json
+User-Agent: Jand/4.14.1
+Sb-User-Agent: Android/c4.14.1
+Sb-Sdk-User-Agent: main_sdk_info=chat/android/4.14.1&device_os_platform=android&os_version=33&extension_sdk_info=desk/android/1.1.4
+Sendbird: Android,33,4.14.1,43DEB9B1-7E2D-4E7E-8678-27839CDF2791
+Request-Sent-Timestamp: 1763577356459
+Session-Key: f359ed14b675ea998678ba57ea6278745d83ab32
+Accept-Encoding: gzip, deflate, br
+
+
+```
