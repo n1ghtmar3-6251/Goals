@@ -39,4 +39,32 @@ Virgin-Account-Number: ACC-01329156
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 
+ 3.
+
+```
+POST /sapi/customers/auth/ HTTP/2
+Host: desk-api-43deb9b1-7e2d-4e7e-8678-27839cdf2791.sendbird.com
+Accept: application/json
+User-Agent: Dand/1.1.4
+Sendbirddesk: Android,33,1.1.4,43DEB9B1-7E2D-4E7E-8678-27839CDF2791
+Sendbirdaccesstoken: 
+Content-Type: application/json; charset=utf-8
+Content-Length: 100
+Accept-Encoding: gzip, deflate, br
+
+{"sendbirdAppId":"43DEB9B1-7E2D-4E7E-8678-27839CDF2791","sendbirdId":"ACC-01329156@virginmobile.ae"}
+```
+
+ 4. 
+
+```
+GET /sapi/tickets/?sendbirdAppId=43DEB9B1-7E2D-4E7E-8678-27839CDF2791&offset=0&limit=10 HTTP/2
+Host: desk-api-43deb9b1-7e2d-4e7e-8678-27839cdf2791.sendbird.com
+Accept: application/json
+User-Agent: Dand/1.1.4
+Sendbirddesk: Android,33,1.1.4,43DEB9B1-7E2D-4E7E-8678-27839CDF2791
+Sendbirddesktoken: 2ae0ce1bc2cd5fe094807d656d889386ccb0f310
+Accept-Encoding: gzip, deflate, br
+
+
 ```
