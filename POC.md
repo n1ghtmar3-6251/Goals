@@ -88,3 +88,18 @@ Accept-Encoding: gzip, deflate, br
 
 
 ```
+
+ 6. 
+
+```
+POST /v1/users/ACC-00024032%40virginmobile.ae/login HTTP/2
+Host: api-43deb9b1-7e2d-4e7e-8678-27839cdf2791.calls.sendbird.com
+User-Agent: calls-android/1.11.11
+Sendbird: android,33,1.11.11
+Sbcall-Client-Id: 0811bb39-5e98-4a8c-b1f7-be4abc015cf5
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+Accept-Encoding: gzip, deflate, br
+
+{"app_id":"43DEB9B1-7E2D-4E7E-8678-27839CDF2791"}
+```
